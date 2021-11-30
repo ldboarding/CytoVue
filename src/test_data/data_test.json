@@ -1,0 +1,67 @@
+{
+    "nodes": [
+        {
+            "data": {
+                "id": "x_VQYGl",
+                "name": "Node1",
+                "type": "Continuous",
+                "min": 0,
+                "max": 0
+            },
+            "position": {
+                "x": 15,
+                "y": 15
+            },
+            "group": "nodes",
+            "removed": false,
+            "selected": false,
+            "selectable": true,
+            "locked": false,
+            "grabbable": true,
+            "pannable": false,
+            "classes": "eh-preview-active"
+        },
+        {
+            "data": {
+                "id": "x_BWXcC",
+                "name": "Node2",
+                "type": "Discrete",
+                "min": 0,
+                "max": 0
+            },
+            "position": {
+                "x": 15,
+                "y": 95
+            },
+            "group": "nodes",
+            "removed": false,
+            "selected": false,
+            "selectable": true,
+            "locked": false,
+            "grabbable": true,
+            "pannable": false,
+            "classes": "eh-preview-active"
+        }
+    ],
+    "edges": [
+        {
+            "data": {
+                "id": "d4b4e66d-6b83-4597-af8c-72bd6338de41",
+                "source": "x_VQYGl",
+                "target": "x_BWXcC" 
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "group": "edges",
+            "removed": false,
+            "selected": false,
+            "selectable": true,
+            "locked": false,
+            "grabbable": true,
+            "pannable": true,
+            "classes": ""
+        }
+    ]
+}

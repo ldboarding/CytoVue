@@ -1,0 +1,244 @@
+{
+    "nodes": [
+        {
+            "data": {
+                "id": "Store",
+                "name": "Store",
+                "type": "Discrete",
+                "min": 0,
+                "max": 99
+            },
+            "position": {
+                "x": 15,
+                "y": 15
+            },
+            "group": "nodes",
+            "removed": false,
+            "selected": true,
+            "selectable": true,
+            "locked": false,
+            "grabbable": true,
+            "pannable": false,
+            "classes": ""
+        },
+        {
+            "data": {
+                "id": "Dept",
+                "name": "Dept",
+                "type": "Continuous",
+                "min": -100,
+                "max": 0
+            },
+            "position": {
+                "x": 95,
+                "y": 15
+            },
+            "group": "nodes",
+            "removed": false,
+            "selected": false,
+            "selectable": true,
+            "locked": false,
+            "grabbable": true,
+            "pannable": false,
+            "classes": ""
+        },
+        {
+            "data": {
+                "id": "Date",
+                "name": "Date",
+                "type": "Discrete",
+                "min": 67,
+                "max": 100
+            },
+            "position": {
+                "x": 185,
+                "y": 15
+            },
+            "group": "nodes",
+            "removed": false,
+            "selected": false,
+            "selectable": true,
+            "locked": false,
+            "grabbable": true,
+            "pannable": false,
+            "classes": ""
+        },
+        {
+            "data": {
+                "id": "Weekly_Sales",
+                "name": "Weekly_Sales",
+                "type": "Continuous",
+                "min": 50,
+                "max": 0
+            },
+            "position": {
+                "x": 95,
+                "y": 175
+            },
+            "group": "nodes",
+            "removed": false,
+            "selected": false,
+            "selectable": true,
+            "locked": false,
+            "grabbable": true,
+            "pannable": false,
+            "classes": ""
+        },
+        {
+            "data": {
+                "id": "Marketing_Campaign",
+                "name": "Marketing_Campaign",
+                "type": "Discrete",
+                "min": 15,
+                "max": 45
+            },
+            "position": {
+                "x": 120,
+                "y": 95
+            },
+            "group": "nodes",
+            "removed": false,
+            "selected": false,
+            "selectable": true,
+            "locked": false,
+            "grabbable": true,
+            "pannable": false,
+            "classes": ""
+        }
+    ],
+    "edges": [
+        {
+            "data": {
+                "id": "edge1",
+                "source": "Store",
+                "target": "Weekly_Sales"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "group": "edges",
+            "removed": false,
+            "selected": false,
+            "selectable": true,
+            "locked": false,
+            "grabbable": true,
+            "pannable": true,
+            "classes": ""
+        },
+        {
+            "data": {
+                "id": "edge2",
+                "source": "Dept",
+                "target": "Weekly_Sales"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "group": "edges",
+            "removed": false,
+            "selected": false,
+            "selectable": true,
+            "locked": false,
+            "grabbable": true,
+            "pannable": true,
+            "classes": ""
+        },
+        {
+            "data": {
+                "id": "edge3",
+                "source": "Date",
+                "target": "Weekly_Sales"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "group": "edges",
+            "removed": false,
+            "selected": false,
+            "selectable": true,
+            "locked": false,
+            "grabbable": true,
+            "pannable": true,
+            "classes": ""
+        },
+        {
+            "data": {
+                "id": "edge4",
+                "source": "Marketing_Campaign",
+                "target": "Weekly_Sales"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "group": "edges",
+            "removed": false,
+            "selected": false,
+            "selectable": true,
+            "locked": false,
+            "grabbable": true,
+            "pannable": true,
+            "classes": ""
+        },
+        {
+            "data": {
+                "id": "edge5",
+                "source": "Store",
+                "target": "Marketing_Campaign"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "group": "edges",
+            "removed": false,
+            "selected": false,
+            "selectable": true,
+            "locked": false,
+            "grabbable": true,
+            "pannable": true,
+            "classes": ""
+        },
+        {
+            "data": {
+                "id": "edge6",
+                "source": "Dept",
+                "target": "Marketing_Campaign"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "group": "edges",
+            "removed": false,
+            "selected": false,
+            "selectable": true,
+            "locked": false,
+            "grabbable": true,
+            "pannable": true,
+            "classes": ""
+        },
+        {
+            "data": {
+                "id": "edge7",
+                "source": "Date",
+                "target": "Marketing_Campaign"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "group": "edges",
+            "removed": false,
+            "selected": false,
+            "selectable": true,
+            "locked": false,
+            "grabbable": true,
+            "pannable": true,
+            "classes": ""
+        }
+    ]
+}

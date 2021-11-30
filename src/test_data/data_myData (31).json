@@ -1,0 +1,107 @@
+{
+    "nodes": [
+        {
+            "data": {
+                "id": "x_VQYGl",
+                "name": "New Name",
+                "type": "Continuous",
+                "min": 0,
+                "max": 0
+            },
+            "position": {
+                "x": 15,
+                "y": 15
+            },
+            "group": "nodes",
+            "removed": false,
+            "selected": false,
+            "selectable": true,
+            "locked": false,
+            "grabbable": true,
+            "pannable": false,
+            "classes": ""
+        },
+        {
+            "data": {
+                "id": "x_BWXcC",
+                "name": "Node2",
+                "type": "Discrete",
+                "min": 0,
+                "max": 0
+            },
+            "position": {
+                "x": 15,
+                "y": 95
+            },
+            "group": "nodes",
+            "removed": false,
+            "selected": false,
+            "selectable": true,
+            "locked": false,
+            "grabbable": true,
+            "pannable": false,
+            "classes": ""
+        },
+        {
+            "data": {
+                "id": "x_DuggS",
+                "name": "Node",
+                "type": "Type",
+                "min": 0,
+                "max": 0
+            },
+            "position": {
+                "x": 95,
+                "y": 15
+            },
+            "group": "nodes",
+            "removed": false,
+            "selected": false,
+            "selectable": true,
+            "locked": false,
+            "grabbable": true,
+            "pannable": false,
+            "classes": ""
+        }
+    ],
+    "edges": [
+        {
+            "data": {
+                "id": "d4b4e66d-6b83-4597-af8c-72bd6338de41",
+                "source": "x_VQYGl",
+                "target": "x_BWXcC"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "group": "edges",
+            "removed": false,
+            "selected": false,
+            "selectable": true,
+            "locked": false,
+            "grabbable": true,
+            "pannable": true,
+            "classes": ""
+        },
+        {
+            "data": {
+                "source": "x_DuggS",
+                "target": "x_BWXcC",
+                "id": "553f4ec9-d1a5-4f60-afa2-d547e75509ef"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "group": "edges",
+            "removed": false,
+            "selected": false,
+            "selectable": true,
+            "locked": false,
+            "grabbable": true,
+            "pannable": true,
+            "classes": ""
+        }
+    ]
+}
