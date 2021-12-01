@@ -292,7 +292,7 @@ export default {
       
       
       axios
-      .post('http://127.0.0.1:8000/getData?no_samples=' + value, jsonData.getters.getNode)
+      .post('https://cytofastapi.herokuapp.com/getData?no_samples=' + value, jsonData.getters.getNode)
       .then(response => {
         console.log("-----------------*******--------------------")
         console.log(response)
